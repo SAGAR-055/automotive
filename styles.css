@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0;
+
+}
+body{
+background-color: black;
+font-family: 'Noto Sans Devanagari', sans-serif;
+font-family: 'Poppins', sans-serif;
+color: aliceblue;
+}
+
+
+@media screen and  (max-width: 1500px){
+    body{
+        min-width: fit-content;
+    }
+    nav{
+         flex-direction: column; 
+         justify-content: center;
+         align-items: center;
+     }
+     nav img{
+    display: inline-block;
+    justify-content: center;
+  position: relative;
+  margin-left: 35%;
+     }
+     nav #text{
+        margin: 0px;
+     }
+.firstsection{
+}
+     .firstsection img{
+      width: 80%; !important
+     }
+    
+}
+.thirdsection{
+
+}
+.thirdsection h1{ 
+    justify-content: center;
+    font-size: 1rem;!im
+}
+
+.fourthsection .rightsection img {
+    width: 500px; !important
+    
+}
+    
+
+nav{
+    margin: 0px;
+   background-color:  rgba(15, 14, 14, 0.027);
+   display: flex;
+   height: 90px;
+   justify-content: center;
+}
+nav img{
+    width: 79px;
+    height: 49px;
+}
+nav #text{
+    width: 138px;
+    height: 27px;
+}
+
+nav .leftnav{
+    margin-left: 70px;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    font-size: 2rem;
+    
+
+}
+nav .rightnav{    
+    color: white;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+nav li:hover{
+    color: red;
+    transition: color 0.6s;
+
+ 
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul{
+    float: right;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 0px;
+}
+nav li{
+    margin-left :40px;
+    display: inline-block;
+
+}
+.firstsection{
+    display: flex;
+    justify-content: center;
+
+}
+.firstsection img{
+    margin-top: 40px;
+    border-radius: 12px;
+    width: 80%;
+}
+
+.thirdsection{
+ 
+    margin:30px auto;
+    width: 50%;
+    padding: 10px;   
+    height: 25pc;
+    
+    
+}
+.thirdsection span{
+    color: red;
+}
+.thirdsection h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.thirdsection h2{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.thirdsection p{
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.thirdsection button{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    padding: 20px;
+    background: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px;
+    margin: 10px 25px;
+    transition: 0.8s;
+    position: relative;
+}
+.thirdsection .btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.thirdsection a{
+    text-decoration: none;
+}
+
+.thirdsection button:hover{
+    background-color: red;
+    transition: 1s;
+    
+}
+
+.hr{
+  margin: 1pc;
+  height: 2pc;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.hr hr{
+    width: 90%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+}
+.fourthsection{
+    margin-left: 6.2% ;
+    height: 30pc;
+    display: flex;
+}
+.fourthsection .leftsection{
+    width: 50%;
+    height: 20pc;
+}
+.leftsection h1{
+   text-decoration:underline 3px red; 
+}
+.leftsection li{
+  font-size: 2pc;
+  list-style: none;
+  margin: 4px;
+}
+.leftsection hr{
+    margin: 10px 350px 0px 0px;
+   border : 1px solid whitesmoke;
+   
+}
+.rightsection{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 20pc;
+    margin: 100px -4px;
+}
+.rightsection img{
+    width: 750px;
+    
+}
+
+
+.fifthsection{
+    margin-left: 6.2%;
+    margin-right: 6.2%;
+    height: 20pc;
+}
+.fifthsection h1{
+    text-decoration:underline 3px red; 
+
+}
+.fifthsection .specification{
+  
+    height: 10pc;
+    width: 100%;
+    margin-top: 20px;
+}
+.specification table{
+    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+
+}
+.specification td{
+    width: 20%;
+}
+.specification td img{
+    display: block;
+    justify-content: center;
+    margin: 2% 21% 9% 40%;
+    width: 70px;
+}
+.sixsection{
+    margin-left: 6.2%;
+    margin-right: 6.2%;
+    height: 44pc;
+}
+.sixsection h1{
+    text-decoration:underline 3px red; 
+}
+.sixsection .variants{
+
+    width: 100%;
+    height: 25pc;
+   
+}
+.sixsection table{
+    width: 100%;
+    height: 100%;
+    
+}
+.sixsection td{
+    width: 20%;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+.sixsection h2{
+   color: red;
+  margin: 10px 0px 17px 0px;
+}
+.price{
+    margin: 10px 20px;
+}
+
+
